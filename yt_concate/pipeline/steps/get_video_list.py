@@ -4,7 +4,6 @@ import json
 from yt_concate.pipeline.steps.step import Step
 from yt_concate.settings import API_KEY
 
-#AIzaSyAa3KIQ20ogiev4Yirgrxyt5fOkEy--s4A
 
 class GetVideoList(Step):
     def process(self, data, inputs):
